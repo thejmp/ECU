@@ -1,0 +1,3234 @@
+{
+  "uuid": "59d4d3e7232e246bafc94893a8350600",
+  "path": "Offline/ECUs",
+  "name": "ECUs",
+  "content": "",
+  "created_at": "2020-06-11 17:52:41",
+  "updated_at": "2020-06-14 10:36:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0d0898d00de537c5359bdcc5fb434138",
+      "title": "power",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a7a0e276dadd4f8097422d2afc2e1b9c": 1,
+        "a39f40cff7f64fcd86eb61f5dfc0bd4f": 2,
+        "bd61488328744011bf27ec79bd618831": 1,
+        "68ce777b3ca34b3b8e5f4052d5e3d012": 1,
+        "a483503c5a704bc7b4e06d5296ba7a49": 1,
+        "5a483565e2f34815b5ae73ad38b6ea4a": 1,
+        "efffc24e768b4ae69d39f2edda2e269a": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1591990212,
+      "createTime": 1591924096,
+      "histories": [],
+      "created_at": "2020-06-11 18:08:16",
+      "updated_at": "2020-06-12 12:30:12"
+    },
+    {
+      "uuid": "3d1a995f63fe1f0551f13a325856539b",
+      "title": "INJ",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "efffc24e768b4ae69d39f2edda2e269a": 3,
+        "3adac0687b184795ac82a88d7030b579": 1,
+        "aa59b3b0ca0d4be782683250972bf09d": 1,
+        "5c9050b7b9964d4abb38675a72b26102": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1591989984,
+      "createTime": 1591926428,
+      "histories": [],
+      "created_at": "2020-06-11 18:47:08",
+      "updated_at": "2020-06-12 12:26:24"
+    },
+    {
+      "uuid": "26d37b9ecc1a1cb80320c246a85dfc43",
+      "title": "plug",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "efffc24e768b4ae69d39f2edda2e269a": 3,
+        "3adac0687b184795ac82a88d7030b579": 1,
+        "aa59b3b0ca0d4be782683250972bf09d": 1,
+        "5c9050b7b9964d4abb38675a72b26102": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1591989984,
+      "createTime": 1591927640,
+      "histories": [],
+      "created_at": "2020-06-11 19:07:20",
+      "updated_at": "2020-06-12 12:26:24"
+    },
+    {
+      "uuid": "c330a80623b6d854b937039de8091644",
+      "title": "Batt",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "efffc24e768b4ae69d39f2edda2e269a": 3,
+        "a39f40cff7f64fcd86eb61f5dfc0bd4f": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1591989985,
+      "createTime": 1591927999,
+      "histories": [],
+      "created_at": "2020-06-11 19:13:19",
+      "updated_at": "2020-06-12 12:26:25"
+    },
+    {
+      "uuid": "d12c562308469909ad37bc9dc6ecdb5b",
+      "title": "O2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "efffc24e768b4ae69d39f2edda2e269a": 1,
+        "a39f40cff7f64fcd86eb61f5dfc0bd4f": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1591989985,
+      "createTime": 1591928167,
+      "histories": [],
+      "created_at": "2020-06-11 19:16:07",
+      "updated_at": "2020-06-12 12:26:25"
+    },
+    {
+      "uuid": "7cb21b0e31693f28c34b72b561612973",
+      "title": "AIC",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7daffb4b8c141c8e53958b0ec1d33f3b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF30v",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1206",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "66200711022",
+          1,
+          "66200711022",
+          "K1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "5f92e18d41ec4705a678f402ae25ee56"
+          }
+        ]
+      ],
+      "updateTime": 1591929279,
+      "createTime": 1591928794,
+      "histories": [],
+      "created_at": "2020-06-11 19:26:34",
+      "updated_at": "2020-06-11 19:34:39"
+    },
+    {
+      "uuid": "459b19a27381b3b48ceb1758d309592a",
+      "title": "CPU",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7c05eec0b1164fbac022de8cb10a484d": 2,
+        "63743670e1ef4118977a1cd7d0bc245e": 2,
+        "8465becc3bff41548ad2a9e3c3898726": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1SMB5919BT3G",
+          1,
+          "SMB_L4.6-W3.6-LS5.3-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C70260",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "1SMB5919BT3G",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "93e92289fb1840b5bba43fc27fda27fc",
+            "uuid": "5a483565e2f34815b5ae73ad38b6ea4a"
+          }
+        ],
+        [
+          "LM2940T-5.0",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434573",
+            "BOM_Manufacturer": "HGSEMI",
+            "BOM_Manufacturer Part": "LM2940T-5.0",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "68ce777b3ca34b3b8e5f4052d5e3d012"
+          }
+        ],
+        [
+          "10uF35v",
+          1,
+          "CASE-C_6032",
+          "C1",
+          {
+            "BOM_Supplier Part": "80-T491C106K035",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491C106K035AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "2e3b51fe362d43e186fe7a3d3be61b85",
+            "uuid": "a7a0e276dadd4f8097422d2afc2e1b9c"
+          }
+        ],
+        [
+          "0.1uF50v",
+          2,
+          "C1210",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "77-VJ1210Y104MXAAT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "VJ1210Y104MXAAT",
+            "BOM_Manufacturer": "Vishay / Vitramon",
+            "puuid": "87afe36a98a54c1e9245294679915281",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "47u10v",
+          1,
+          "CASE-B_3528",
+          "C4",
+          {
+            "BOM_Supplier Part": "80-T491B476K006",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491B476K006AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "c34a1ddee614437a896e168400a20cea",
+            "uuid": "a483503c5a704bc7b4e06d5296ba7a49"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "LED3",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "MSS1P3-M3/89A",
+          1,
+          "MICROSMP_L2.2-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C111315",
+            "BOM_Manufacturer": "Vishay Intertech",
+            "BOM_Manufacturer Part": "MSS1P3-M3/89A",
+            "puuid": "dd615f7b52884d3da6bbbff49edf0d3c",
+            "uuid": "bd61488328744011bf27ec79bd618831"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED1",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M1",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R3",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "GF1G-E3/67A",
+          1,
+          "DO-214BA_L4.8-W2.9-LS5.3-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "GF1G-E3/67A",
+            "BOM_Supplier Part": "C145458",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "7f65cd2eff854be39c5fecb8bf3c665f",
+            "uuid": "5c9050b7b9964d4abb38675a72b26102"
+          }
+        ],
+        [
+          "STP62NS04Z",
+          1,
+          "STP62NS04Z_HORIZ_HAND_SOLDER",
+          "M2",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Manufacturer": "ST",
+            "BOM_Manufacturer Part": "STP62NS04Z",
+            "BOM_Supplier Part": "761-0152",
+            "puuid": "9d84ff54bb094c81a323d3fb329a10ca",
+            "uuid": "aa59b3b0ca0d4be782683250972bf09d"
+          }
+        ],
+        [
+          "680",
+          1,
+          "R1206",
+          "R8",
+          {
+            "BOM_Supplier Part": "603-RT1206FRE07680RL",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "RT1206FRE07680RL",
+            "BOM_Manufacturer": "Yageo",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R9",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "C137393",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07100KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C1206",
+          "C5",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "0.22u",
+          1,
+          "C1206",
+          "C6",
+          {
+            "BOM_Supplier Part": "581-TPSA224K050R7000",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "TPSA224K050R7000",
+            "BOM_Manufacturer": "AVX",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "3.9k",
+          1,
+          "R1206",
+          "R4",
+          {
+            "BOM_Supplier Part": "C137280",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-073R9L",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R5",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "C114945",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-07470RL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C1206",
+          "C7,C8",
+          {
+            "BOM_Supplier Part": "80-T491A104M050AT",
+            "BOM_Supplier": "Mouser",
+            "BOM_Manufacturer Part": "T491A104M050AT",
+            "BOM_Manufacturer": "KEMET",
+            "puuid": "b4235c9f870d443994cfe44a496e36ac",
+            "uuid": "a39f40cff7f64fcd86eb61f5dfc0bd4f"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R1206",
+          "R7",
+          {
+            "BOM_Supplier Part": "C131398",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RC1206FR-071KL",
+            "BOM_Manufacturer": "YAGEO",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "7daffb4b8c141c8e53958b0ec1d33f3b"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X9P",
+          2,
+          "IDC-TH_18P-P2.54-V-R2-C9-S2.54",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X9 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11216",
+            "puuid": "fceacde31ee949f0987f21dd7eba1a69",
+            "uuid": "7c05eec0b1164fbac022de8cb10a484d"
+          }
+        ],
+        [
+          "JL301-50002U02",
+          3,
+          "CONN-TH_2P-P2.54_JL301-50002U02",
+          "U3,U4,U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395214",
+            "BOM_Manufacturer": "JILN",
+            "BOM_Manufacturer Part": "JL301-50002U02",
+            "puuid": "28daaf73004e447e9629f01456920cb3",
+            "uuid": "8465becc3bff41548ad2a9e3c3898726"
+          }
+        ],
+        [
+          "dc-005 5.5-2.0",
+          2,
+          "DC-IN-TH_DC005",
+          "DC1,DC2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132516",
+            "BOM_Manufacturer": "Shenzhen Cankemeng",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "1337670005c6484c999f9b4c272ee9fe",
+            "uuid": "63743670e1ef4118977a1cd7d0bc245e"
+          }
+        ]
+      ],
+      "updateTime": 1592156203,
+      "createTime": 1591929278,
+      "histories": [],
+      "created_at": "2020-06-11 19:34:38",
+      "updated_at": "2020-06-14 10:36:43"
+    },
+    {
+      "uuid": "5ec7e2e109bd57b5f4f4abeb8939208a",
+      "puuid": "59d4d3e7232e246bafc94893a8350600",
+      "title": "PCB_2020-06-12_10-47-50",
+      "filename": "PCB_2020-06-12_10-47-50.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2e3b51fe362d43e186fe7a3d3be61b85": 1,
+        "87afe36a98a54c1e9245294679915281": 2,
+        "df7b9c1c92a741e3a4e90f224547567e": 1,
+        "090b645653374cf992fd93fb559e27d2": 2,
+        "93e92289fb1840b5bba43fc27fda27fc": 1,
+        "7f65cd2eff854be39c5fecb8bf3c665f": 2,
+        "fceacde31ee949f0987f21dd7eba1a69": 2,
+        "f2561f0fa47346d3a02d341f9e29ef9e": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "1337670005c6484c999f9b4c272ee9fe": 2,
+        "b4235c9f870d443994cfe44a496e36ac": 4,
+        "c34a1ddee614437a896e168400a20cea": 1,
+        "9d84ff54bb094c81a323d3fb329a10ca": 2,
+        "dd615f7b52884d3da6bbbff49edf0d3c": 1,
+        "0610c91ea88544ecbdf889657d55abcb": 11,
+        "28daaf73004e447e9629f01456920cb3": 3
+      },
+      "BOM": [],
+      "updateTime": 1591990453,
+      "createTime": 1591984070,
+      "histories": [],
+      "created_at": "2020-06-12 10:47:50",
+      "updated_at": "2020-06-12 12:34:13"
+    }
+  ],
+  "sort": [
+    "0d0898d00de537c5359bdcc5fb434138",
+    "3d1a995f63fe1f0551f13a325856539b",
+    "26d37b9ecc1a1cb80320c246a85dfc43",
+    "c330a80623b6d854b937039de8091644",
+    "d12c562308469909ad37bc9dc6ecdb5b",
+    "7cb21b0e31693f28c34b72b561612973",
+    "459b19a27381b3b48ceb1758d309592a"
+  ],
+  "title": "ECUs",
+  "foldername": "ECUs",
+  "schfilename": "ECUs.json",
+  "schfilemtime": 1592156203840
+}
