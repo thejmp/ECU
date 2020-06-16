@@ -5,7 +5,7 @@ This is my ECU project for my senior project at BYUI
 The objective of this project is to take a one-cylinder engine that is carbureted and convert it to fuel injection. This involves replacing a mechanical system with a microcontroller that monitors the engine status and reacts accordingly enabling the engine to run. This conversion is needed to increases fuel efficiency, add some sort of boost, decrease environmental impact, etc.
 
 ## Materials
-[Parts list sheet](parts/sinor%20project.csv)
+[Parts list csv](parts/sinor%20project.csv)
 
 ## PCB & Schematic
 ![PCB Image](PCB%20%26%20schematic/PCB.PNG) ![PCB Image](PCB%20%26%20schematic/PCB_PCB_2020-06-12_10-47-50_2020-06-15_19-19-58.png)
