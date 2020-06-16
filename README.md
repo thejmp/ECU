@@ -6,6 +6,7 @@ The objective of this project is to take a one-cylinder engine that is carburete
 
 ## Materials
 [Parts list sheet](parts/sinor%20project.csv)
+|---|---|
 Battery | Exhaust header W/ gasket
 Engine | Fuel pump
 Throttle bodie | Proximity switch
