@@ -34,7 +34,7 @@ The objective of this project is to take a one-cylinder engine that is carburete
  - [x] 	Have a protected wiring harness
  - [ ] 	Have a dashboard to display information
  - [ ] 	Engine running at an idle
-Str etch Requirements:
+###Stretch Requirements:
  - [ ]	Have the engine ruing a base tune 
  - [ ]	Add safety sensors like oil level, battery voltage, etc.
  - [ ]	Add auto shutoff if a problem is detected
