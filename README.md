@@ -1,6 +1,5 @@
 # Electronic control unit (ECU)
-![Image of pistion]
-(Images/piston.png)
+![Image of pistion](Images/piston.png)
 This is my ECU project for my senior project at BYUI
 
 ## Abstract
@@ -30,8 +29,7 @@ The objective of this project is to take a one-cylinder engine that is carburete
 [parts list sheet](parts/sinor%20project.csv)
 
 ## PCB
-![PCB Image]
-(PCB%20%26%20schematic/PCB.png)
+![PCB Image](PCB%20%26%20schematic/PCB.png)
 
 ## Schematic
 [PDF schematic](PCB%20%26%20schematic/Schematic_ECUs_2020-06-15_18-41-38.pdf)
