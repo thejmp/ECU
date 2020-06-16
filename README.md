@@ -25,7 +25,7 @@ The objective of this project is to take a one-cylinder engine that is carburete
 * Fuel filter
 * missalais
 
-[a relative link](parts/sinor project.csv)
+(parts/sinor project.csv)
 
 ## Requirements:
  - [x] 	Read data from sensors mounted on the engine
