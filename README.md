@@ -26,10 +26,10 @@ The objective of this project is to take a one-cylinder engine that is carburete
 * Fuel filter
 * missalais
 
-[parts list sheet](parts/sinor%20project.csv)
+[Parts list sheet](parts/sinor%20project.csv)
 
 ## PCB
-![PCB Image](PCB%20%26%20schematic/PCB.png)
+![PCB Image](PCB%20%26%20schematic/PCB.PNG)
 
 ## Schematic
 [PDF schematic](PCB%20%26%20schematic/Schematic_ECUs_2020-06-15_18-41-38.pdf)
