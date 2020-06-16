@@ -24,8 +24,7 @@ The objective of this project is to take a one-cylinder engine that is carburete
 [Parts list csv](parts/sinor%20project.csv)
 
 ## Code
-[arduino mega ECU](ECU.ino)
-[Arduino IDE](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.12-windows.exe)
+[Arduino Mega ECU](ECU.ino)
 
 ## PCB & Schematic
 ![PCB Image](PCB%20%26%20schematic/PCB.PNG) ![PCB Image](PCB%20%26%20schematic/PCB2.png)
