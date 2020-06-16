@@ -1,5 +1,5 @@
 # Electronic control unit (ECU)
-![Image of pistion](Images/piston.png)
+![Image of pistion](Images/piston_sm.png)
 This is my ECU project for my senior project at BYUI
 
 ## Abstract
