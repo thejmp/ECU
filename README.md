@@ -5,27 +5,14 @@ This is my ECU project for my senior project at BYUI
 The objective of this project is to take a one-cylinder engine that is carbureted and convert it to fuel injection. This involves replacing a mechanical system with a microcontroller that monitors the engine status and reacts accordingly enabling the engine to run. This conversion is needed to increases fuel efficiency, add some sort of boost, decrease environmental impact, etc.
 
 ## Materials
-* Battery 
-* Engine
-* Throttle bodie
-* Coil
-* Coil Wire
-* Valve cover
-* Manifold
-* Air filter
-* Exhaust header W/ gasket
-* Fuel pump
-* Proximity switch
-* wire
-* hall effect sensor
-* Mega
-* O2 bung 
-* Header addapter
-* O2 sensor
-* Fuel filter
-* missalais
-
 [Parts list sheet](parts/sinor%20project.csv)
+Battery | Exhaust header W/ gasket
+Engine | Fuel pump
+Throttle bodie | Proximity switch
+Coil | hall effect sensor
+Coil Wire | Mega
+Manifold | O2 sensor
+Valve cover | Air filter
 
 ## PCB
 ![PCB Image](PCB%20%26%20schematic/PCB.PNG)
