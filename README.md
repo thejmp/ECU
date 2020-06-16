@@ -6,19 +6,11 @@ The objective of this project is to take a one-cylinder engine that is carburete
 
 ## Materials
 [Parts list sheet](parts/sinor%20project.csv)
-Battery | Exhaust header W/ gasket
-Engine | Fuel pump
-Throttle bodie | Proximity switch
-Coil | hall effect sensor
-Coil Wire | Mega
-Manifold | O2 sensor
-Valve cover | Air filter
 
-## PCB
-![PCB Image](PCB%20%26%20schematic/PCB.PNG)
-
-## Schematic
+## PCB & Schematic
+![PCB Image](PCB%20%26%20schematic/PCB.PNG) ![PCB Image](PCB%20%26%20schematic/PCB_PCB_2020-06-12_10-47-50_2020-06-15_19-19-58.png)
 [PDF schematic](PCB%20%26%20schematic/Schematic_ECUs_2020-06-15_18-41-38.pdf)
+[BOM](PCB%20%26%20schematic/BOM_ECUs_2020-06-15_18-41-51.csv)
 
 ## Requirements:
  - [x] 	Read data from sensors mounted on the engine
