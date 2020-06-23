@@ -1,0 +1,8 @@
+  6/16/2020 1:54:13 PM: Starting composition “Comp 1”.
+
+  Output To: C:\Users\joshu\Documents\ecu\Dash\tac\Comp 1_[#####].png    6/16/2020 1:54:14 PM: Finished composition “Comp 1”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 6/16/2020 at 1:54:14 PM
+
