@@ -1,3 +1,4 @@
+
 /************************************************************************
  *  INJ-CPU --------> B01 | B02 -> PLUG-CPU
  *  STEPER-CPU1 ----> B03 | B04 -> STEPER-CPU3
@@ -39,12 +40,13 @@ const short O2 = A0;
 const short BAT = A1;
 const short AIT = A2;
 const short TPS = A3;
+//map(sensorValue, 431, 762, 0, 100);
 const short MAP = A4;
 const short TEMP = A5;
 
 const int stepsPerRevolution = 200;
 volatile unsigned int injOnTime = 2000;     // microseconds
-bool firstsig = false;
+bool firstsig = true;
 
 Stepper myStepper(stepsPerRevolution, STEPER1, STEPER2, STEPER3, STEPER4);
 
@@ -54,18 +56,21 @@ void setup() {
   pinMode(PLUG, OUTPUT);
   pinMode(CAM, INPUT_PULLUP);
   pinMode(SPARK, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(CAM), intake, RISING);
-  attachInterrupt(digitalPinToInterrupt(SPARK), fire, FALLING);
+  attachInterrupt(digitalPinToInterrupt(CAM), intake, FALLING);
+  attachInterrupt(digitalPinToInterrupt(SPARK), fire, RISING);
   noInterrupts(); // disable all interrupts
   TCCR1A = 0;  //  Timer 1 normal mode
   TCCR1B = 0;  //  Timer 1 stop timer
   TIMSK1 = 0;  //  Timer 1 cancel timer interrupt
   interrupts(); // enable all interrupts
+  Serial.begin(9600);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  digitalWrite(SPARK, HIGH);
+  delay(100);
+  digitalWrite(SPARK, HIGH);
 }
 
 void steper() {
@@ -90,15 +95,18 @@ void intake() {
     TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
     // multiply by two because we are on a prescaler of 8
     OCR1A = (injOnTime * 2) - 1;
+    TIMSK1 |= (1 << OCIE1A);
 }
 
 void fire() {
-  if (!firstsig) {
-    digitalWriteFast(SPARK, HIGH);
-    digitalWriteFast(SPARK, LOW);
+  if (firstsig) {
+    digitalWrite(SPARK, HIGH);
     firstsig = false;
+    Serial.print("\t fire = ON\n");
   } else {
+    //digitalWriteFast(SPARK, LOW);
     firstsig = true;
+    Serial.print("\t fire = OFF\n\n");
   }
 }
 
