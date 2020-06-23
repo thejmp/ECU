@@ -90,17 +90,19 @@ void steper() {
 
 void intake() {
     digitalWriteFast (INJ, HIGH); // spark on
+    noInterrupts();
     TCCR1B = 0;                         // stop timer
     TCNT1 = 0;                          // count back to zero
     TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
     // multiply by two because we are on a prescaler of 8
     OCR1A = (injOnTime * 2) - 1;
     TIMSK1 |= (1 << OCIE1A);
+    interrupts();
 }
 
 void fire() {
   if (firstsig) {
-    digitalWrite(SPARK, HIGH);
+    digitalWriteFast(SPARK, HIGH);
     firstsig = false;
     Serial.print("\t fire = ON\n");
   } else {
