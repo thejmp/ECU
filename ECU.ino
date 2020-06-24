@@ -48,6 +48,7 @@ const int stepsPerRevolution = 200;
 volatile unsigned int injOnTime = 2000;     // microseconds
 bool firstsig = true;
 
+
 Stepper myStepper(stepsPerRevolution, STEPER1, STEPER2, STEPER3, STEPER4);
 
 void setup() {
@@ -67,10 +68,12 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(SPARK, HIGH);
-  delay(100);
-  digitalWrite(SPARK, HIGH);
+  map(analogRead(O2), 0, 1023, 0, 100);
+  map(analogRead(BAT), 0, 1023, 0, 100);
+  (((analogRead(AIT) * 5) / 1023) - 0.5) * 100;
+  map(analogRead(TPS), 431, 762, 0, 100);
+  map(analogRead(MAP), 0, 1023, 0, 105);
+ (((analogRead(TEMP) * 5) / 1023) - 0.5) * 100;
 }
 
 void steper() {
