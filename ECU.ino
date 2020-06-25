@@ -46,6 +46,7 @@ const short TEMP = A5;
 
 const int stepsPerRevolution = 200;
 volatile unsigned int injOnTime = 2000;     // microseconds
+volatile unsigned int sparkOnTime = 4000;     // microseconds
 bool firstsig = true;
 
 
@@ -58,7 +59,7 @@ void setup() {
   pinMode(CAM, INPUT_PULLUP);
   pinMode(SPARK, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(CAM), intake, FALLING);
-  attachInterrupt(digitalPinToInterrupt(SPARK), fire, RISING);
+  attachInterrupt(digitalPinToInterrupt(SPARK), fire, FALLING);
   noInterrupts(); // disable all interrupts
   TCCR1A = 0;  //  Timer 1 normal mode
   TCCR1B = 0;  //  Timer 1 stop timer
@@ -92,7 +93,7 @@ void steper() {
 
 
 void intake() {
-    digitalWriteFast (INJ, HIGH); // spark on
+    digitalWriteFast(INJ, HIGH); // inj on
     noInterrupts();
     TCCR1B = 0;                         // stop timer
     TCNT1 = 0;                          // count back to zero
@@ -105,18 +106,24 @@ void intake() {
 
 void fire() {
   if (firstsig) {
-    digitalWriteFast(SPARK, HIGH);
+    digitalWriteFast(PLUG, HIGH);
+    noInterrupts();
+    TCCR1B = 0;                         // stop timer
+    TCNT1 = 0;                          // count back to zero
+    TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
+    // multiply by two because we are on a prescaler of 8
+    OCR1A = (sparkOnTime * 2) - 1;
+    TIMSK1 |= (1 << OCIE1A);
     firstsig = false;
-    Serial.print("\t fire = ON\n");
+    interrupts();
   } else {
-    //digitalWriteFast(SPARK, LOW);
     firstsig = true;
-    Serial.print("\t fire = OFF\n\n");
   }
 }
 
 ISR (TIMER1_COMPA_vect) {
     digitalWriteFast (INJ, LOW);
+    digitalWriteFast(PLUG, LOW);
     TCCR1B = 0;                         // stop timer
     TIMSK1 = 0;                         // cancel timer interrupt
 }
