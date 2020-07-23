@@ -45,9 +45,11 @@ const short MAP = A4;
 const short TEMP = A5;
 
 const int stepsPerRevolution = 200;
-volatile unsigned int injOnTime = 2000;     // microseconds
+volatile unsigned int injOnTime = 20000;     // microseconds
 volatile unsigned int sparkOnTime = 4000;     // microseconds
 bool firstsig = true;
+bool intakestart = true;
+bool firestart = true;
 
 
 Stepper myStepper(stepsPerRevolution, STEPER1, STEPER2, STEPER3, STEPER4);
@@ -66,6 +68,7 @@ void setup() {
   TIMSK1 = 0;  //  Timer 1 cancel timer interrupt
   interrupts(); // enable all interrupts
   Serial.begin(9600);
+  Serial.print("hello\n");
 }
 
 void loop() {
@@ -93,37 +96,36 @@ void steper() {
 
 
 void intake() {
-    digitalWriteFast(INJ, HIGH); // inj on
-    noInterrupts();
-    TCCR1B = 0;                         // stop timer
-    TCNT1 = 0;                          // count back to zero
-    TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
-    // multiply by two because we are on a prescaler of 8
-    OCR1A = (injOnTime * 2) - 1;
-    TIMSK1 |= (1 << OCIE1A);
-    interrupts();
+  Serial.print("intake\n");
+  digitalWriteFast(INJ, HIGH); // inj on
+  noInterrupts();
+  TCCR1B = 0;                         // stop timer
+  TCNT1 = 0;                          // count back to zero
+  TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
+  // multiply by two because we are on a prescaler of 8
+  OCR1A = (injOnTime * 2) - 1;
+  TIMSK1 |= (1 << OCIE1A);
+  interrupts();
 }
 
 void fire() {
-  if (firstsig) {
-    digitalWriteFast(PLUG, HIGH);
-    noInterrupts();
-    TCCR1B = 0;                         // stop timer
-    TCNT1 = 0;                          // count back to zero
-    TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
-    // multiply by two because we are on a prescaler of 8
-    OCR1A = (sparkOnTime * 2) - 1;
-    TIMSK1 |= (1 << OCIE1A);
-    firstsig = false;
-    interrupts();
-  } else {
-    firstsig = true;
-  }
+  Serial.print("fire\n");
+  digitalWriteFast(PLUG, HIGH);
+  noInterrupts();
+  TCCR1B = 0;                         // stop timer
+  TCNT1 = 0;                          // count back to zero
+  TCCR1B = bit(WGM12) | bit(CS11);    // CTC, scale to clock / 8
+  // multiply by two because we are on a prescaler of 8
+  OCR1A = (sparkOnTime * 2) - 1;
+  TIMSK1 |= (1 << OCIE1A);
+  firstsig = false;
+  interrupts();
 }
 
 ISR (TIMER1_COMPA_vect) {
-    digitalWriteFast (INJ, LOW);
-    digitalWriteFast(PLUG, LOW);
-    TCCR1B = 0;                         // stop timer
-    TIMSK1 = 0;                         // cancel timer interrupt
+  Serial.print("off\n");
+  digitalWriteFast (INJ, LOW);
+  digitalWriteFast(PLUG, LOW);
+  TCCR1B = 0;                         // stop timer
+  TIMSK1 = 0;                         // cancel timer interrupt
 }
